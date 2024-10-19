@@ -1,5 +1,2 @@
 #ZeroEffort 
-
-##WMS
 ##OMS
-##ERP
