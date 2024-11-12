@@ -1,0 +1,6 @@
+@Zeroeffort.Main_HostAddress = http://localhost:5057
+
+GET {{Zeroeffort.Main_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

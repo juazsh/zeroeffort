@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/SimplyOne/Zeroeffort/Zeroeffort.csproj",
-      "projectName": "Zeroeffort",
-      "projectPath": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/SimplyOne/Zeroeffort/Zeroeffort.csproj",
+      "projectUniqueName": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/ModularOne/Bootstrapper/Zeroeffort.Main/Zeroeffort.Main.csproj",
+      "projectName": "Zeroeffort.Main",
+      "projectPath": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/ModularOne/Bootstrapper/Zeroeffort.Main/Zeroeffort.Main.csproj",
       "packagesPath": "/Users/junaidazharshaikh/.nuget/packages/",
-      "outputPath": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/SimplyOne/Zeroeffort/obj/",
+      "outputPath": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/ModularOne/Bootstrapper/Zeroeffort.Main/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/junaidazharshaikh/.nuget/NuGet/NuGet.Config"

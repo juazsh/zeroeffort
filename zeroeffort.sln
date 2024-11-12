@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37B1DAF2-4E85-4F3C-81DA-AC77733B35F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimplyOne", "SimplyOne", "{6DFF7159-601B-4C40-A471-6B4DF0F043EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeroeffort", "src\SimplyOne\Zeroeffort\Zeroeffort.csproj", "{EB382F7C-9055-4194-8719-572722E15274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModularOne", "ModularOne", "{642340E8-3323-4F87-931B-F04C8550DAE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{D3AC6533-C023-47EE-BE3D-FFA83846C59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeroeffort.Main", "src\ModularOne\Bootstrapper\Zeroeffort.Main\Zeroeffort.Main.csproj", "{BC7C3F78-4E63-4AD1-BE14-AAC2DC4B2507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +22,22 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB382F7C-9055-4194-8719-572722E15274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB382F7C-9055-4194-8719-572722E15274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB382F7C-9055-4194-8719-572722E15274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB382F7C-9055-4194-8719-572722E15274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7C3F78-4E63-4AD1-BE14-AAC2DC4B2507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7C3F78-4E63-4AD1-BE14-AAC2DC4B2507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7C3F78-4E63-4AD1-BE14-AAC2DC4B2507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7C3F78-4E63-4AD1-BE14-AAC2DC4B2507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DFF7159-601B-4C40-A471-6B4DF0F043EF} = {37B1DAF2-4E85-4F3C-81DA-AC77733B35F2}
+		{EB382F7C-9055-4194-8719-572722E15274} = {6DFF7159-601B-4C40-A471-6B4DF0F043EF}
+		{642340E8-3323-4F87-931B-F04C8550DAE8} = {37B1DAF2-4E85-4F3C-81DA-AC77733B35F2}
+		{D3AC6533-C023-47EE-BE3D-FFA83846C59E} = {642340E8-3323-4F87-931B-F04C8550DAE8}
+		{BC7C3F78-4E63-4AD1-BE14-AAC2DC4B2507} = {D3AC6533-C023-47EE-BE3D-FFA83846C59E}
 	EndGlobalSection
 EndGlobal

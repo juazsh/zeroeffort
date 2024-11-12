@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FClBFf0Jv3w=",
+  "dgSpecHash": "7rG6vtssaZY=",
   "success": true,
-  "projectFilePath": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/SimplyOne/Zeroeffort/Zeroeffort.csproj",
+  "projectFilePath": "/Users/junaidazharshaikh/Desktop/coding_hexagon/projects/zeroeffort/src/ModularOne/Bootstrapper/Zeroeffort.Main/Zeroeffort.Main.csproj",
   "expectedPackageFiles": [
     "/Users/junaidazharshaikh/.nuget/packages/microsoft.aspnetcore.openapi/8.0.10/microsoft.aspnetcore.openapi.8.0.10.nupkg.sha512",
     "/Users/junaidazharshaikh/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

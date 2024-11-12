@@ -1,0 +1,6 @@
+@Zeroeffort_HostAddress = http://localhost:5204
+
+GET {{Zeroeffort_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
